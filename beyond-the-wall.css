@@ -988,6 +988,15 @@ h4.dice-total {
   text-align: center;
 }
 
+/* ## Journal #################### */
+
+.sheet.journal-entry .journal-sidebar {
+  background: url(./assets/wood.jpg) !important;
+}
+
+
+
+
 /* ## 5e #################### */
 
 .dnd5e.sheet .window-content {
