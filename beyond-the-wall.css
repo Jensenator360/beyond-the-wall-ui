@@ -993,26 +993,3 @@ h4.dice-total {
 .sheet.journal-entry .journal-sidebar {
   background: url(./assets/wood.jpg) !important;
 }
-
-
-
-
-/* ## 5e #################### */
-
-.dnd5e.sheet .window-content {
-    background-image: url(./assets/Parchment.png) !important;
-    /* background: var(--color-btw-parchment); */
-    border: none !important;
-    border-radius: 0px;
-    color: var(--color-btw-text-dark);
-    font-family: var(--font-primary);
-    line-height: 135%;
-    font-size: 0.9em;
-    padding: 23px !important;
-    margin: 5px 0px 10px 0px !important;
-    border: 2px solid !important;
-    border-image-source: url(./assets/border.png) !important;
-    border-image-repeat: repeat !important;
-    border-image-slice: 24 !important;
-    border-image-width: 15px !important;
-}
