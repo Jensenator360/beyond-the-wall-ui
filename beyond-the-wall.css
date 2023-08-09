@@ -679,6 +679,11 @@ h4.dice-total {
   margin: 0;
 }
 
+.beyond-the-wall .wide-section .entry label {
+  font-family: var(--font-header);
+  font-size: 1.3em;
+}
+
 .beyond-the-wall .wide-section .editor {
   padding: 4px;
   flex-grow: 1;
@@ -983,6 +988,8 @@ h4.dice-total {
 
 .beyond-the-wall.character .goal-table h4 {
   margin: 0;
+  font-family: var(--font-header);
+  font-size: 1.5em;
 }
 
 .beyond-the-wall.character .goal-table .goal-add {
