@@ -169,6 +169,10 @@ label.checkbox {
   font-family: var(--font-sans);
 }
 
+select {
+  font-family: var(--font-sans) !important;
+}
+
 .window-app .window-header {
   background: url(./assets/btw_border_window_bg.webp);
 }
