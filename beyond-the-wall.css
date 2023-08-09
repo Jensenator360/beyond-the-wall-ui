@@ -164,6 +164,11 @@ h1, h2, h3, h3 {
 }
 */
 
+label.checkbox {
+  font-size: var(--font-size-11);
+  font-family: var(--font-sans);
+}
+
 .window-app .window-header {
   background: url(./assets/btw_border_window_bg.webp);
 }
