@@ -32,7 +32,6 @@
   --font-header: "Header";
   --font-sans: "Primary Sans";
   --font-pause: "Celtic";
-  --font-header2: "Header2"
 }
 
 :root {
@@ -79,12 +78,7 @@
 
 @font-face {
   font-family: "Celtic";
-  src: url("./fonts/shamuspro.ttf");
-}
-
-@font-face {
-  font-family: "Header2";
-  src: url("./fonts/Ardagh.ttf");
+  src: url("./fonts/KingthingsExeter.ttf");
 }
 
 /* ## Header ############################### */
