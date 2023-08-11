@@ -520,7 +520,10 @@ h4.dice-total {
 
 /* ## END ##################### */
 
-
+.dialog .dialog-buttons {
+  width: 180px;
+  align-self: center;
+}
 
 .beyond-the-wall .window-content {
   height: 100%;
