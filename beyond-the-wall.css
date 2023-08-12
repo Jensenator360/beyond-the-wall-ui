@@ -32,6 +32,7 @@
   --font-header: "Header";
   --font-sans: "Primary Sans";
   --font-pause: "pause";
+  --font-celtic: "celtic";
 }
 
 :root {
@@ -78,6 +79,11 @@
 
 @font-face {
   font-family: "pause";
+  src: url("./fonts/KingthingsExeter.ttf");
+}
+
+@font-face {
+  font-family: "celtic";
   src: url("./fonts/KingthingsExeter.ttf");
 }
 
@@ -171,6 +177,14 @@ select {
   background: url(./assets/btw_border_window_bg.webp);
 }
 
+img.profile-img {
+  border: none !important;
+}
+
+.beyond-the-wall.character .pc-sheet-header {
+  grid-row-gap: 5px;
+}
+
 .beyond-the-wall .sheet-body {
   padding-bottom: 15px;
 }
@@ -182,7 +196,6 @@ select {
 
 .app.window-app.beyond-the-wall.sheet.character {
   height: fit-content !important;
-  width:700px !important;
 }
 
 .beyond-the-wall.character .item-list .item-name {
@@ -195,7 +208,8 @@ select {
 }
 
 .beyond-the-wall.character .main.active .side-bar .stats .ability-score {
-  font-family: var(--font-pause);
+  font-family: var(--font-sans);
+  font-size: 1.1em;
 }
 
 .beyond-the-wall .skill-box .skill .skill-name {
