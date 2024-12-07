@@ -164,6 +164,18 @@ h1, h2, h3, h3 {
 }
 */
 
+.tabs > [data-tab].active {
+  text-shadow: 0 0 10px var(--color-shadow-primary);
+}
+
+.tabs > [data-tab] {
+  text-align: center;
+}
+
+a:hover {
+  text-shadow: 0 0 5px green;
+}
+
 label.checkbox {
   font-size: var(--font-size-11);
   font-family: var(--font-sans);
@@ -526,6 +538,11 @@ h4.dice-total {
 
 .window-app .window-content {
   background: url(./assets/parchment.webp) repeat;
+  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
+  border-image-repeat: repeat !important;
+  border-image-slice: 24 !important;
+  border-image-width: 15px !important;
+  padding: 15px;
 }
 
 .dice-tray button {
@@ -1029,4 +1046,30 @@ h4.dice-total {
 
 .journal-sheet .journal-header {
   font-family: var(--font-header);
+}
+
+.btw.sheet.actor {
+  min-width: 750px;
+  font-family: var(--font-header) !important;
+}
+
+.btw.sheet.actor .abilities .ability .abitily-name, .btw.sheet.actor .abilities .ability .ability-score, .btw.sheet.actor .abilities .ability .ability-mod {
+  font-family: var(--font-header) !important;
+  font-size: 20px !important;
+}
+
+.btw.sheet.actor .abilities .ability .ability-features {
+  font-family: var(--font-sans) !important;
+}
+
+.btw.sheet.actor .saves .save.flexcol {
+  font-family: var(--font-header) !important;
+}
+
+.btw.sheet.actor .right-fields>div.flexcol {
+  font-family: var(--font-header) !important;
+}
+
+.btw .sheet-header .header-fields input[name=name] {
+  border-radius: 0px !important;
 }
