@@ -165,7 +165,7 @@ h1, h2, h3, h3 {
 */
 
 .tabs > [data-tab].active {
-  text-shadow: 0 0 10px var(--color-shadow-primary);
+color: var(--color-btw-celticborder);
 }
 
 .tabs > [data-tab] {
@@ -173,7 +173,7 @@ h1, h2, h3, h3 {
 }
 
 a:hover {
-  text-shadow: 0 0 5px green;
+  transform: scale(1.075);
 }
 
 label.checkbox {
@@ -204,6 +204,8 @@ img.profile-img {
 .sheet nav.sheet-tabs {
   font-family: var(--font-header);
   font-size: 20px;
+  background: url(./assets/btw_border_window_bg.webp);
+  color: var(--color-btw-text-primary);
 }
 
 .app.window-app.beyond-the-wall.sheet.character {
