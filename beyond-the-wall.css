@@ -538,11 +538,6 @@ h4.dice-total {
 
 .window-app .window-content {
   background: url(./assets/parchment.webp) repeat;
-  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
-  border-image-repeat: repeat !important;
-  border-image-slice: 24 !important;
-  border-image-width: 15px !important;
-  padding: 15px;
 }
 
 .dice-tray button {
@@ -1072,4 +1067,14 @@ h4.dice-total {
 
 .btw .sheet-header .header-fields input[name=name] {
   border-radius: 0px !important;
+}
+
+.btw.sheet .window-content {
+  overflow-y: hidden;
+  background: url(./assets/parchment.webp) repeat;
+  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
+  border-image-repeat: repeat !important;
+  border-image-slice: 24 !important;
+  border-image-width: 15px !important;
+  padding: 15px;
 }
