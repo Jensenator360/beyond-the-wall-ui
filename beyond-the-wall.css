@@ -1163,7 +1163,7 @@ li::marker {
 
 /* TEST */
 
-a.sheet nav.sheet-tabs > [data-tab]:hover {
+a.item:hover {
   transform: scale(1.5) !important;
   color: aqua;
 }
