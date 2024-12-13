@@ -1129,7 +1129,7 @@ h4.dice-total {
 
 .journal-sheet .journal-header .title {
   margin: 0;
-  /* background: rgba(0, 0, 0, 0.1); */
+  background: none !important;
   font-size: 4em;
   text-transform: uppercase;
   height: 50px;
@@ -1159,7 +1159,7 @@ h4.dice-total {
   font-family: var(--font-header);
 }
 
-.system-dragonbane .sheet.journal-entry h1 {
+.sheet.journal-entry .journal-entry-content h1 {
   font-size: 4em;
   font-weight: bolder;
   text-transform: uppercase;
