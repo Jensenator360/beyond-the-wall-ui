@@ -33,6 +33,12 @@
   --font-sans: "Primary Sans";
   --font-pause: "pause";
   --font-celtic: "celtic";
+
+  /* Font size */
+  --font-size-h1: 2em;
+  --font-size-h2: 1.5em;
+  --font-size-h3: 1.25em;
+  --font-size-h4: 1.25em;
 }
 
 :root {
@@ -99,21 +105,54 @@ body {
   /* font-size: var(--font-size-14); */
 }
 
-h1, h2 {
+/* Font Header */
+
+h1 {
   color: inherit;
-  border-color: 0;
   border-width: 2px;
+  font-size: var(--font-size-h1) !important;
+  border-bottom: 2px solid #000 !important;
   font-family: var(--font-header) !important;
 }
 
-
-h3, h4, h5, h6 {
+h2 {
   color: inherit;
-  border-color: 0;
-  border-width: 2px;
-  font-weight: bold !important;
+  font-size: var(--font-size-h2) !important;
+  font-family: var(--font-header) !important;
+  border: none !important;
+}
+
+h3 {
+  color: inherit;
   border: none !important;
   font-family: var(--font-celtic) !important;
+  font-size: var(--font-size-h3) !important;
+ 
+}
+
+h4 {
+  color: inherit;
+  border: none !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-h4) !important;
+ 
+}
+
+h5 {
+  color: inherit;
+  border: none !important;
+  font-family: var(--font-sans) !important;
+  font-size: 1em !important;
+ 
+}
+
+h6 {
+  color: inherit;
+  border: none !important;
+  font-family: var(--font-sans) !important;
+  font-size: 1em !important;
+  font-style: italic !important;
+ 
 }
 
 #menu #menu-items li h4 {
