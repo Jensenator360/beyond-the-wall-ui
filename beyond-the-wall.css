@@ -99,7 +99,7 @@ body {
   /* font-size: var(--font-size-14); */
 }
 
-h1, h2, {
+h1, h2 {
   color: inherit;
   border-color: 0;
   border-width: 2px;
@@ -113,6 +113,7 @@ h3, h4, h5, h6 {
   border-width: 2px;
   font-weight: bold !important;
   border: none !important;
+  font-family: var(--font-celtic) !important;
 }
 
 #menu #menu-items li h4 {
