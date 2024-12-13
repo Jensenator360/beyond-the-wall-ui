@@ -125,14 +125,14 @@ h2 {
 h3 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-celtic) !important;
+  font-family: var(--font-header) !important;
  
 }
 
 h4 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-header) !important;
  
 }
 
@@ -1159,4 +1159,11 @@ li::marker {
 }
 .sheet.journal-entry .journal-entry-page li {
   font-family: var(--font-sans) !important;
+}
+
+/* TEST */
+
+a.sheet nav.sheet-tabs > [data-tab]:hover {
+  transform: scale(1.5) !important;
+  color: aqua;
 }
