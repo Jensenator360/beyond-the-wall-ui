@@ -35,10 +35,10 @@
   --font-celtic: "celtic";
 
   /* Font size */
-  --font-size-h1: 2em;
-  --font-size-h2: 1.5em;
-  --font-size-h3: 1.25em;
-  --font-size-h4: 1.25em;
+  --font-size-h1: 2.5em;
+  --font-size-h2: 2em;
+  --font-size-h3: 1.5em;
+  --font-size-h4: 1em;
 }
 
 :root {
@@ -126,7 +126,6 @@ h3 {
   color: inherit;
   border: none !important;
   font-family: var(--font-celtic) !important;
-  font-size: var(--font-size-h3) !important;
  
 }
 
@@ -134,7 +133,6 @@ h4 {
   color: inherit;
   border: none !important;
   font-family: var(--font-sans) !important;
-  font-size: var(--font-size-h4) !important;
  
 }
 
@@ -142,7 +140,6 @@ h5 {
   color: inherit;
   border: none !important;
   font-family: var(--font-sans) !important;
-  font-size: 1em !important;
  
 }
 
@@ -150,7 +147,6 @@ h6 {
   color: inherit;
   border: none !important;
   font-family: var(--font-sans) !important;
-  font-size: 1em !important;
   font-style: italic !important;
  
 }
@@ -223,7 +219,7 @@ text-shadow:none !important;
 }
 
 a:hover {
-  transform: scale(1.075);
+  /* transform: scale(1.075);*/
   text-shadow:none !important;
 }
 
@@ -930,6 +926,48 @@ h4.dice-total {
   color: red;
 }
 
+/* ## Charsheet ################### */
+
+.btw.sheet.actor {
+  min-width: 750px;
+  font-family: var(--font-header) !important;
+}
+
+.btw.sheet.actor .abilities .ability .abitily-name, .btw.sheet.actor .abilities .ability .ability-score, .btw.sheet.actor .abilities .ability .ability-mod {
+  font-family: var(--font-header) !important;
+  font-size: 20px !important;
+}
+
+.btw.sheet.actor .abilities .ability .ability-features {
+  font-family: var(--font-sans) !important;
+}
+
+.btw.sheet.actor .saves .save.flexcol {
+  font-family: var(--font-header) !important;
+}
+
+.btw.sheet.actor .right-fields>div.flexcol {
+  font-family: var(--font-header) !important;
+}
+
+.btw .sheet-header .header-fields input[name=name] {
+  border-radius: 0px !important;
+}
+
+.btw.sheet .window-content {
+  overflow-y: hidden;
+  background: url(./assets/parchment.webp) repeat;
+  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
+  border-image-repeat: repeat !important;
+  border-image-slice: 24 !important;
+  border-image-width: 15px !important;
+  padding: 15px;
+}
+
+.btw.sheet .details-sidebar {
+  font-size: 18px;
+}
+
 .beyond-the-wall.character .pc-sheet-header {
   display: grid;
   padding: 3px;
@@ -1088,6 +1126,10 @@ h4.dice-total {
 
 /* ## Journal #################### */
 
+.sheet.journal-sheet.window-app.journal-entry-page .window-content, .sheet.journal-entry .journal-entry-content {
+  background-color: url(./assets/btw_parchment_bg.webp) !important;
+}
+
 .sheet.journal-entry .journal-sidebar {
   background: url(./assets/btw_wood_dark_bg.webp) !important;
 }
@@ -1100,42 +1142,21 @@ h4.dice-total {
   font-family: var(--font-header);
 }
 
-.btw.sheet.actor {
-  min-width: 750px;
-  font-family: var(--font-header) !important;
-}
-
-.btw.sheet.actor .abilities .ability .abitily-name, .btw.sheet.actor .abilities .ability .ability-score, .btw.sheet.actor .abilities .ability .ability-mod {
-  font-family: var(--font-header) !important;
-  font-size: 20px !important;
-}
-
-.btw.sheet.actor .abilities .ability .ability-features {
+.sheet.journal-entry .journal-entry-page h4 {
   font-family: var(--font-sans) !important;
+  font-size: 1.2em !important;
 }
 
-.btw.sheet.actor .saves .save.flexcol {
-  font-family: var(--font-header) !important;
+.sheet.journal-entry .journal-entry-page table thead {
+  color: black;
+  text-shadow: none;
+  font-style: normal;
 }
 
-.btw.sheet.actor .right-fields>div.flexcol {
-  font-family: var(--font-header) !important;
+li::marker {
+  content: '>> ';
+  font-size: 1.2em;
 }
-
-.btw .sheet-header .header-fields input[name=name] {
-  border-radius: 0px !important;
-}
-
-.btw.sheet .window-content {
-  overflow-y: hidden;
-  background: url(./assets/parchment.webp) repeat;
-  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
-  border-image-repeat: repeat !important;
-  border-image-slice: 24 !important;
-  border-image-width: 15px !important;
-  padding: 15px;
-}
-
-.btw.sheet .details-sidebar {
-  font-size: 18px;
+.sheet.journal-entry .journal-entry-page li {
+  font-family: var(--font-sans) !important;
 }
