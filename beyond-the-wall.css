@@ -1129,16 +1129,16 @@ h4.dice-total {
 
 .journal-sheet .journal-header .title {
   margin: 0;
-  background: none !important;
+  background: none;
   font-size: 4em;
   text-transform: uppercase;
   height: 50px;
   line-height: 50px;
-  /* border-radius: 4px; */
-  /* background: antiquewhite; */
+  border-radius: 0px !important;
   font-family: var(--font-header);
   font-weight: +5;
   letter-spacing: 4px;
+  border: none !important;
 }
 
 
