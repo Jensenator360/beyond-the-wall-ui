@@ -99,11 +99,18 @@ body {
   /* font-size: var(--font-size-14); */
 }
 
-h1, h2, h3, h3 {
+h1, h2, h3 {
   color: inherit;
   border-color: 0;
   border-width: 2px;
   font-family: var(--font-header) !important;
+}
+
+h4, h5, h6 {
+  color: inherit;
+  border-color: 0;
+  border-width: 2px;
+  font-weight: bold !important;
 }
 
 #menu #menu-items li h4 {
@@ -166,6 +173,7 @@ h1, h2, h3, h3 {
 
 .tabs > [data-tab].active {
 color: var(--color-btw-celticborder);
+text-shadow:none !important;
 }
 
 .tabs > [data-tab] {
@@ -174,6 +182,7 @@ color: var(--color-btw-celticborder);
 
 a:hover {
   transform: scale(1.075);
+  text-shadow:none !important;
 }
 
 label.checkbox {
@@ -1079,4 +1088,8 @@ h4.dice-total {
   border-image-slice: 24 !important;
   border-image-width: 15px !important;
   padding: 15px;
+}
+
+.btw.sheet .details-sidebar {
+  font-size: 18px;
 }
