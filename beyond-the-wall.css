@@ -1163,7 +1163,7 @@ li::marker {
 
 /* TEST */
 
-a.item:hover {
+.sheet-tabs.tabs a.item:hover {
   transform: scale(1.5) !important;
   color: aqua;
 }
