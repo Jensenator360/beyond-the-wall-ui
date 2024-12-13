@@ -132,7 +132,7 @@ h3 {
 h4 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-header) !important;
+  font-family: var(--font-sans) !important;
  
 }
 
@@ -1126,6 +1126,24 @@ h4.dice-total {
 
 /* ## Journal #################### */
 
+/* TITLE */
+
+.journal-sheet .journal-header .title {
+  margin: 0;
+  /* background: rgba(0, 0, 0, 0.1); */
+  font-size: 4em;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  /* border-radius: 4px; */
+  /* background: antiquewhite; */
+  font-family: var(--font-header);
+  font-weight: +5;
+  letter-spacing: 4px;
+}
+
+
+
 .sheet.journal-entry .journal-entry-content {
   background: url(./assets/parchment.webp) !important;
 }
@@ -1142,6 +1160,14 @@ h4.dice-total {
   font-family: var(--font-header);
 }
 
+.system-dragonbane .sheet.journal-entry h1 {
+  font-size: 4em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-btw-content);
+  border-bottom: 0px solid transparent;
+}
 
 .sheet.journal-entry .journal-entry-page h2 {
   font-size: 2em !important;
@@ -1167,6 +1193,16 @@ h4.dice-total {
 .sheet.journal-entry .journal-entry-page li {
   font-family: var(--font-sans) !important;
   content: '- ';
+}
+
+blockquote {
+  padding: 9px 10px 5px 10px;
+  border-left: 0px solid transparent;
+  font-style: italic;
+  background: bisque;
+  margin-block: 20px;
+  margin-inline: 0px;
+  /* border: 1px solid var(--color-btw-content); */
 }
 
 /*
