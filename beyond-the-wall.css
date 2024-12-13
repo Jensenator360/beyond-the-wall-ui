@@ -1052,8 +1052,8 @@ h4.dice-total {
   background: url(./assets/btw_wood_dark_bg.webp) !important;
 }
 
-.sheet.journal-entry .journal-entry-page * {
-  font-family: 'Signika' !important;
+.sheet.journal-entry p {
+  font-family: var(--font-sans) !important;
 }
 
 .journal-sheet .journal-header {
