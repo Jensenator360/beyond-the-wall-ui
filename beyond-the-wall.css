@@ -132,7 +132,6 @@ h3 {
 h4 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-sans) !important;
  
 }
 
@@ -1211,6 +1210,13 @@ li::marker {
   font-size: 1.2em;
 }
 */
+
+
+/* ## Foriens Quest log ############## */
+
+#forien-quest-log .quest-log .log-body header h1 {
+  font-size: 2em !important;
+}
 
 
 /* TEST */
