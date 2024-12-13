@@ -1126,7 +1126,7 @@ h4.dice-total {
 
 /* ## Journal #################### */
 
-.sheet.journal-sheet.window-app.journal-entry-page .window-content, .sheet.journal-entry .journal-entry-content {
+.sheet.journal-entry .journal-entry-content {
   background-color: url(./assets/btw_parchment_bg.webp) !important;
 }
 
