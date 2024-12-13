@@ -1153,13 +1153,18 @@ h4.dice-total {
   font-style: normal;
 }
 
+.sheet.journal-entry .journal-entry-page li {
+  font-family: var(--font-sans) !important;
+  content: '- ';
+}
+
+/*
 li::marker {
   content: '>> ';
   font-size: 1.2em;
 }
-.sheet.journal-entry .journal-entry-page li {
-  font-family: var(--font-sans) !important;
-}
+*/
+
 
 /* TEST */
 
