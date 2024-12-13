@@ -1145,7 +1145,7 @@ h4.dice-total {
 
 .sheet.journal-entry .journal-entry-page h2 {
   font-size: 2em !important;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000 !important;
 }
 
 .sheet.journal-entry .journal-entry-page h3 {
@@ -1155,6 +1155,7 @@ h4.dice-total {
 .sheet.journal-entry .journal-entry-page h4 {
   font-family: var(--font-sans) !important;
   font-size: 1em !important;
+  font-weight: bold;
 }
 
 .sheet.journal-entry .journal-entry-page table thead {
