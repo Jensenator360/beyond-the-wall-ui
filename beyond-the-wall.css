@@ -272,6 +272,12 @@ img.profile-img {
   font-family: 'Signika';
 }
 
+/* ## Menue #################### */
+
+#menu #menu-items li:hover {
+  transform: scale(1.1);
+}
+
 /* ## ChatSidebar #################### */
 
 
