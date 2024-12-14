@@ -33,6 +33,7 @@
   --font-sans: "Primary Sans";
   --font-pause: "pause";
   --font-celtic: "celtic";
+  --font-journal-h1: "journalhead";
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -91,6 +92,11 @@
 @font-face {
   font-family: "celtic";
   src: url("./fonts/dum1.ttf");
+}
+
+@font-face {
+  font-family: "journalhead"
+  src: url("./fonts/shamuspro.ttf");
 }
 
 /* ## Header ############################### */
