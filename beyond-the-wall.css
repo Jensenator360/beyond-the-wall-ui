@@ -1136,14 +1136,35 @@ h4.dice-total {
   text-transform: uppercase;
   height: 50px;
   line-height: 50px;
-  border-radius: 0px !important;
+  border-radius: 3px !important;
   font-family: var(--font-header);
   font-weight: +5;
   letter-spacing: 4px;
   border: none !important;
 }
 
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="search"]:focus {
+  box-shadow: 0 0 5px var(--color-btw-accent) inset !important;
+}
 
+.journal-sheet .journal-header {
+  font-family: var(--font-header);
+  background: url(./assets/celtic_test.webp);
+  /* background: url(art/ui/header-dragon.webp), url(art/ui/arrow-wide-left.webp), url(art/ui/arrow-wide-right.webp), url(art/ui/border-horizontal.webp); */
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: auto 30px, auto, auto, 100% 14px;
+  background-clip: border-box, border-box, border-box, padding-box;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 36px;
+  margin-bottom: 0;
+  margin-left: 0px;
+  z-index: 1;
+}
 
 .sheet.journal-entry .journal-entry-content {
   background: url(./assets/parchment.webp) !important;
@@ -1155,10 +1176,6 @@ h4.dice-total {
 
 .sheet.journal-entry p {
   font-family: var(--font-sans) !important;
-}
-
-.journal-sheet .journal-header {
-  font-family: var(--font-header);
 }
 
 .sheet.journal-entry .journal-entry-page h1 {
