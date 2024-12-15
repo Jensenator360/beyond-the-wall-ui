@@ -1299,14 +1299,12 @@ input[type="search"]:focus {
 blockquote {
   border-left: 0px solid transparent;
   font-style: italic;
-  background: bisque;
   margin-block: 20px;
   margin-inline: 0px;
-  padding: 15px;
-  border-image-source: url(./assets/sidebar-frame.png) !important;
-  border-image-repeat: repeat !important;
-  border-image-slice: 10 fill !important;
-  border-image-width: 15px !important;
+  background: url(./assets/journal_parchment_darker.webp);
+  background-size: cover;
+  padding: 30px;
+  box-shadow: aliceblue;
 }
 
 .sheet.journal-entry .journal-entry-page table {
