@@ -370,7 +370,8 @@ img.profile-img {
 
 #sidebar-tabs>.item:hover {
   color: var(--color-btw-accent-highlight);
-  text-shadow: 0 0 2px var(--color-btw-glow);
+  text-shadow: 0 0 2px var(--color-btw-glow) !important;
+  transform: scale(1.275);
 }
 
 /* -- Sidebar popout ------------------- */
