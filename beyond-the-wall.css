@@ -1212,6 +1212,11 @@ input[type="search"]:focus {
   box-shadow: 0 0 5px var(--color-btw-accent) inset !important;
 }
 
+.sheet.journal-entry .journal-entry-content .journal-entry-pages .journal-entry-page .editor-edit {
+  z-index: 2;
+  display: unset;
+}
+
 .journal-sheet .journal-header {
   background: url(./assets/divider_journal.webp);
   background-position: center calc(100% + 76px);
