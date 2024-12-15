@@ -1213,21 +1213,20 @@ input[type="search"]:focus {
 }
 
 .journal-sheet .journal-header {
-  background: url(./assets/sidebar_divider.webp);
-  background-position: center calc(100% - 0px), center;
-  background-repeat: repeat-x, repeat;
-  background-size: 69%, 100%;
-  background-clip: padding-box, content-box;
+  background: url(./assets/divider_journal.webp);
+  background-position: center calc(100% + 76px);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-clip: border-box;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 4px solid transparent;
-  /* padding-left: 12px; */
-  /* padding-right: 12px; */
-  padding-bottom: 16px;
-  margin-bottom: 0px;
+  border-bottom: 60px solid transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
   margin-left: 0px;
-  z-index: 1;
-}
+  z-index: 1 !important;
+  
 
 .sheet.journal-entry .journal-entry-content {
   background: url(./assets/parchment.webp) !important;
