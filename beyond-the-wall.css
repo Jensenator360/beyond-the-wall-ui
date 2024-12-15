@@ -96,7 +96,7 @@
 
 @font-face {
   font-family: "journalhead";
-  src: url("./fonts/Livingston.ttf");
+  src: url("./fonts/Livingstone.ttf");
 }
 
 /* ## Header ############################### */
@@ -976,6 +976,14 @@ h4.dice-total {
   min-width: 750px;
   font-family: var(--font-header) !important;
 }
+
+.btw.sheet.actor .portrait {
+  overflow: hidden;
+}
+
+.btw .sheet-header .portrait .profile-img {
+  height: fit-content;
+
 
 .btw.sheet.actor .abilities .ability .abitily-name,
 .btw.sheet.actor .abilities .ability .ability-score,
