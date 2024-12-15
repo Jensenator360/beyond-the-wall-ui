@@ -1226,7 +1226,7 @@ input[type="search"]:focus {
   margin-bottom: 20px;
   margin-left: 0px;
   z-index: 1 !important;
-  
+ }
 
 .sheet.journal-entry .journal-entry-content {
   background: url(./assets/parchment.webp) !important;
