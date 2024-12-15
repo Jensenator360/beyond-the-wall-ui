@@ -99,6 +99,11 @@
   src: url("./fonts/Livingstone.ttf");
 }
 
+@font-face {
+  font-family: "aniron";
+  src: url("./fonts/aniron.ttf");
+}
+
 /* ## Header ############################### */
 
 body {
