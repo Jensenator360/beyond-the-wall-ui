@@ -1230,11 +1230,12 @@ input[type="search"]:focus {
 .sheet.journal-entry .journal-entry-page h2:after {
   content: "";
   display: block;
-  height: 50px;
+  width: auto;
+  height: 3px;
   background-image: url(./assets/sidebar_divider.webp);
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
+  background-position: left;
+  background-size: inherit;
 }
 
 .sheet.journal-entry .journal-entry-page h3 {
@@ -1264,13 +1265,11 @@ blockquote {
   background: bisque;
   margin-block: 20px;
   margin-inline: 0px;
-  /*overflow-y: hidden; */
-  background: url(./assets/sidebar-frame.png);
-  /*border-image-source: url(./assets/sidebar_border.webp) !important;
-  border-image-repeat: repeat !important;
-  border-image-slice: 15 !important;
-  border-image-width: 15px !important;*/
   padding: 15px;
+  border-image-source: url(./assets/sidebar-frame.png) !important;
+  border-image-repeat: repeat !important;
+  border-image-slice: 10 fill !important;
+  border-image-width: 15px !important;
 }
 
 /*
