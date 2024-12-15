@@ -1268,14 +1268,21 @@ input[type="search"]:focus {
   background-size: inherit;
 }
 
+/* # SHEET ALL HEADINGS
+.sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  margin-top: 1rem;
+  font-family: var(--font-aniron) !important;
+}
+*/
+
 .sheet.journal-entry .journal-entry-page h3 {
   font-size: 1.5em !important;
 }
 
 .sheet.journal-entry .journal-entry-page h4 {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
   font-size: 1em !important;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .sheet.journal-entry .journal-entry-page table thead {
@@ -1301,6 +1308,18 @@ blockquote {
   border-image-slice: 10 fill !important;
   border-image-width: 15px !important;
 }
+
+.sheet.journal-entry .journal-entry-page table {
+  width: calc(100% - 40px);
+  border-collapse: collapse;
+  background: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--color-border-light-tertiary);
+  border-bottom: 1px solid var(--color-border-light-tertiary);
+  margin: 0.5em 15px;
+  /* padding: 2em; */
+  /* margin-right: 15px; */
+}
+
 
 /*
 li::marker {
