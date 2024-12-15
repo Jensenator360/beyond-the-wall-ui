@@ -1207,7 +1207,7 @@ input[type="search"]:focus {
   display: unset;
 }
 
-.journal-sheet .journal-header {
+.sheet.journal-entry .journal-entry-content .journal-header {
   background: url(./assets/divider_journal.webp);
   background-position: center calc(100% + 116px);
   background-repeat: no-repeat;
@@ -1264,6 +1264,7 @@ input[type="search"]:focus {
 
 /* sheet editor*/
 
+/*
 .sheet.journal-entry-page .journal-header {
   margin-bottom: -90px;
   display: flex
@@ -1272,6 +1273,7 @@ input[type="search"]:focus {
   flex-wrap: nowrap;
   background: none;
 }
+*/
 
 /* # SHEET ALL HEADINGS
 .sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
