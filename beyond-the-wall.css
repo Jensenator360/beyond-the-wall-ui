@@ -1223,6 +1223,17 @@ input[type="search"]:focus {
   z-index: 1 !important;
 }
 
+.system-dragonbane .sheet.journal-entry .journal-entry-content .journal-entry-pages .journal-entry-page:not(.image):last-child {
+  background: url(art/ui/pagination-half-demon.webp);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: auto 60px;
+  background-clip: padding-box;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  min-height: calc(100% - 36px);
+}
+
 .sheet.journal-entry .journal-entry-content {
   background: url(./assets/parchment.webp) !important;
   padding: 0 25px 0 25px;
