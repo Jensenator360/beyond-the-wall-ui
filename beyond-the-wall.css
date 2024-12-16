@@ -1248,7 +1248,7 @@ input[type="search"]:focus {
 }
 
 .sheet.journal-entry .journal-entry-page h1 {
-  font-size: 4em;
+  font-size: 2vmax;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
