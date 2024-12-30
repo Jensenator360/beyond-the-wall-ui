@@ -35,6 +35,7 @@
   --font-celtic: "celtic";
   --font-journal-h1: "journalhead";
   --font-aniron: "aniron";
+  --font-phil: "phil";
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -103,6 +104,11 @@
 @font-face {
   font-family: "aniron";
   src: url("./fonts/aniron.ttf");
+}
+
+@font-face {
+  font-family: "phil";
+  src: url("./fonts/Philosopher/Philosopher-Regular.ttf")
 }
 
 /* ## Header ############################### */
