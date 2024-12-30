@@ -64,13 +64,13 @@
 @font-face {
   font-family: "Primary Font";
   font-weight: normal;
-  src: url("./fonts/BaskervilleURW/Baskerville\ URW\ Regular.ttf");
+  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
 }
 
 @font-face {
   font-family: "Primary Font Bold";
   font-weight: bold;
-  src: url("./fonts/BaskervilleURW/Baskerville\ URW\ Bold.ttf");
+  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
 }
 
 /* -- SANS SERIF -------------------- */
