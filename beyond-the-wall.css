@@ -64,19 +64,19 @@
 @font-face {
   font-family: "Primary Font";
   font-weight: normal;
-  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+  src: url("./fonts/Georgia/Georgia\ Pro\ Regular.ttf");
 }
 
 @font-face {
   font-family: "Primary Font Bold";
   font-weight: bold;
-  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+  src: url("./fonts/Georgia/Georgia\ Pro\ Bold.ttf");
 }
 
 /* -- SANS SERIF -------------------- */
 @font-face {
   font-family: "Primary Sans";
-  src: url("./fonts/signika/Signika-Regular.ttf");
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 /* --- MONOSPACED -------------------- */
