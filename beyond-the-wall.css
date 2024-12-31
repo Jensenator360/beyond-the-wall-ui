@@ -1315,12 +1315,6 @@ input[type="search"]:focus {
   font-weight: bolder;
 }
 
-.sheet.journal-entry .journal-entry-page table thead {
-  color: black;
-  text-shadow: none;
-  font-style: normal;
-}
-
 .sheet.journal-entry .journal-entry-page li {
   font-family: var(--font-sans) !important;
   content: "- ";
@@ -1340,18 +1334,34 @@ blockquote {
 .sheet.journal-entry .journal-entry-page table {
   width: calc(100% - 40px);
   border-collapse: collapse;
-  background: rgba(0, 0, 0, 0.05);
   border-top: 1px solid var(--color-border-light-tertiary);
   border-bottom: 1px solid var(--color-border-light-tertiary);
   margin: 0.5em 15px;
-  /* padding: 2em; */
-  /* margin-right: 15px; */
+  margin-bottom: 50px;
 }
 
 .sheet.journal-entry .journal-entry-page .edit-container {
   top: -35px !important;
 }
 
+/* ## Tables #################### */
+
+.vtt .journal-sheet .window-content table tr {
+  background-color: #dddbc4;
+  font-family: var(--font-sans);
+}
+
+.sheet.journal-entry .journal-entry-page table thead {
+  color: var(--color-btw-shadow);
+    text-shadow: none !important;
+    font-style: normal;
+    /* background: blue !important; */
+    border: 0px solid transparent;
+    background-color: var(--color-btw-failure);
+    font-family: var(--font-phil);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
 
 /*
 li::marker {
