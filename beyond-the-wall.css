@@ -58,26 +58,26 @@
 /* -- HEADER -------------------- */
 @font-face {
   font-family: "Header";
-  src: url("./fonts/KingthingsPetrock.ttf");
+  src: url("./fonts/qt/QTAntiquePost.otf");
 }
 
 /* --  SERIF  -------------------- */
 @font-face {
   font-family: "Primary Font";
   font-weight: normal;
-  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+  src: url("./fonts/qt/QTKorrin.otf");
 }
 
 @font-face {
   font-family: "Primary Font Bold";
   font-weight: bold;
-  src: url("./fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+  src: url("./fonts/qt/QTBengal-Bold.otf");
 }
 
 /* -- SANS SERIF -------------------- */
 @font-face {
   font-family: "Primary Sans";
-  src: url("./fonts/signika/Signika-Regular.ttf");
+  src: url("./fonts/qt/QTKorrin.otf");
 }
 
 /* --- MONOSPACED -------------------- */
@@ -1322,7 +1322,7 @@ input[type="search"]:focus {
 
 blockquote {
   border-left: 0px solid transparent;
-  font-style: italic;
+  font-style: normal;
   margin-block: 20px;
   margin-inline: 0px;
   background: url(./assets/journal_parchment_darker.webp);
