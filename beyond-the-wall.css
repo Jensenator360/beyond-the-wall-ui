@@ -114,8 +114,7 @@ h1 {
 h2 {
   color: inherit;
   font-size: var(--font-size-h2) !important;
-  font-family: var(--font-header) !important;
-  border-bottom: 2px solid #000 !important;
+  font-family: var(--font-header) !important; 
 }
 
 h3 {
@@ -1260,7 +1259,8 @@ input[type="search"]:focus {
 
 .sheet.journal-entry .journal-entry-page h2 {
   font-size: 2em !important;
-  /*  border-bottom: 2px solid #000 !important; */
+  border-bottom: 2px solid #000 !important;
+  color: #008000;
 }
 
 /* Disable Line after h2
