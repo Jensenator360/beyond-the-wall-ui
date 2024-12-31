@@ -32,7 +32,6 @@
   --font-header: "Header";
   --font-sans: "Primary Sans";
   --font-pause: "pause";
-  --font-celtic: "celtic";
   --font-journal-h1: "journalhead";
 
   /* Font size */
@@ -86,7 +85,7 @@
 
 @font-face {
   font-family: "pause";
-  src: url("./fonts/KingthingsPetrock.ttf");
+  src: url("./fonts/qt/QTAntiquePost.otf");
 }
 
 @font-face {
@@ -984,6 +983,18 @@ h4.dice-total {
 
 .btw.sheet.actor .saves .save.flexcol {
   font-family: var(--font-header) !important;
+}
+
+/* ## Save ################### */
+.btw.sheet.actor .saves .save-wrapper {
+  border-radius: 0px !important;
+}
+
+.btw.sheet.actor .saves .save-wrapper input {
+  border-radius: 0px !important;
+  font-size: 2em !important;
+
+/* ########################### */
 }
 
 .btw.sheet.actor .right-fields>div.flexcol {
