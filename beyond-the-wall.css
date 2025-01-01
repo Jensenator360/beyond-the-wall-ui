@@ -26,6 +26,9 @@
   --color-btw-celticborder: #cdb882;
   --color-btw-background-notrans: #21222c;
 
+  --color-btw-table_2nd: background-color: rgba(74, 36, 7, 0.2);
+  --color-btw-table_border: #4a2407;
+
   /* Fonts */
   --font-primary: "Primary Font";
   --font-mono: "Monospaced";
@@ -1340,7 +1343,7 @@ blockquote {
   top: -35px !important;
 }
 
-/* ## Tables #################### */
+/* # Tables #################### */
 
 .vtt .journal-sheet .window-content table tr {
   background-color: transparent !important;
@@ -1355,7 +1358,20 @@ blockquote {
 }
 
 .vtt .journal-sheet .window-content table tr:nth-child(2n) {
-  background-color: var(--color-btw-glow);
+  background-color: var(--color-btw-table_2nd);
+}
+
+.sheet.journal-entry .journal-entry-content .display-table table caption {
+  width: 100%;
+  height: 32px;
+  left: calc(50% - 170px);
+  padding: 6px 24px 12px 24px;
+  /* background-image: url(art/ui/text-box-title-wide-bg.webp), url(art/ui/arrow-left.webp), url(art/ui/arrow-right.webp), url(art/ui/separator-middle.webp); */
+  background-size: contain, auto 24px, auto 24px, calc(100% - 24px) 16px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center center, left center, right center, center center;
+  background-clip: border-box, border-box, border-box, padding-box;
+  color: whitesmoke;
 }
 
 
