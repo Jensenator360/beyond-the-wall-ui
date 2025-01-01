@@ -6,11 +6,11 @@
     "library": "false",
     "manifestPlusVersion": "1.2.0",
     "compatibility": {
-      "minimum": "11",
-      "verified": "11"
+      "minimum": "12",
+      "verified": "12"
     },
-    "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
+    "minimumCoreVersion": "12",
+    "compatibleCoreVersion": "12",
     "authors": [
         {
             "name": "Jensenator360",

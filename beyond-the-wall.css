@@ -114,7 +114,8 @@ h1 {
 h2 {
   color: inherit;
   font-size: var(--font-size-h2) !important;
-  font-family: var(--font-header) !important; 
+  font-family: var(--font-sans) !important;
+  font-weight: 600;
 }
 
 h3 {
@@ -144,7 +145,7 @@ h6 {
 
 #menu #menu-items li h4 {
   font-size: 1.25em;
-  font-family: var(--font-pause);
+  font-family: var(--font-pause) !important;
   text-shadow: 0 2px 2px #000;
 }
 
@@ -1255,6 +1256,7 @@ input[type="search"]:focus {
   color: var(--color-btw-content);
   border-bottom: 0px solid transparent;
   font-family: var(--font-journal-h1) !important;
+  font-size: 4vmin;
 }
 
 .sheet.journal-entry .journal-entry-page h2 {
@@ -1341,7 +1343,7 @@ blockquote {
 /* ## Tables #################### */
 
 .vtt .journal-sheet .window-content table tr {
-  background-color: transparent;
+  background-color: transparent !important;
   font-family: var(--font-sans);
 }
 
@@ -1350,9 +1352,6 @@ blockquote {
     text-shadow: none !important;
     font-style: normal;
     border: 0px solid transparent;
-    font-family: var(--font-phil);
-    font-size: 1.1em;
-    font-weight: lighter;
 }
 
 .vtt .journal-sheet .window-content table tr:nth-child(2n) {
