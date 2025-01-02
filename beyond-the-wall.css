@@ -1396,6 +1396,6 @@ li::marker {
 /* TEST */
 
 .sheet-tabs.tabs a.item:hover {
-  transform: scale(1.5) !important;
-  color: aqua;
+  transform: scale(1.1) !important;
+  color: var(--color-btw-celticborder);
 }
