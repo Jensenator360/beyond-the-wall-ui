@@ -132,11 +132,7 @@ h2 {
 h3, h4, h5, h6 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-friz) !important;
-}
-
-h3, h4 {
-  font-weight: 600 !important;
+  font-family: var(--font-sans) !important;
 }
 
 #menu #menu-items li h4 {
@@ -1305,10 +1301,12 @@ input[type="search"]:focus {
 
 .sheet.journal-entry .journal-entry-page h3 {
   font-size: 1.5em !important;
+  font-family: var(--font-friz) !important;
+  font-weight: 600 !important;
 }
 
 .sheet.journal-entry .journal-entry-page h4 {
-  font-family: var(--font-primary) !important;
+  font-family: var(--font-friz) !important;
   font-size: 1em !important;
   font-weight: bolder;
 }
