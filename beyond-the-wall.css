@@ -1279,7 +1279,7 @@ input[type="search"]:focus {
 
 .sheet.journal-entry .journal-entry-page h2 {
   font-size: 1.8em !important;
-  border-bottom: 2px solid #000 !important;
+  border-bottom: 2px solid #008000 !important;
   color: #008000;
 }
 
