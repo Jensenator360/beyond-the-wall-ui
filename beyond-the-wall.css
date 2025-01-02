@@ -33,7 +33,7 @@
   --font-sans: "Primary Sans";
   --font-pause: "pause";
   --font-journal-h1: "journalhead";
-  --font-friz: "friz"
+  --font-friz: "friz";
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -129,30 +129,12 @@ h2 {
   font-weight: 600;
 }
 
-h3 {
+h3, h4, h5, h6 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-fitz) !important;
 }
 
-h4 {
-  color: inherit;
-  border: none !important;
-  font-family: var(--font-sans) !important;
-}
-
-h5 {
-  color: inherit;
-  border: none !important;
-  font-family: var(--font-sans) !important;
-}
-
-h6 {
-  color: inherit;
-  border: none !important;
-  font-family: var(--font-sans) !important;
-  font-style: italic !important;
-}
 
 #menu #menu-items li h4 {
   font-size: 1.25em;
