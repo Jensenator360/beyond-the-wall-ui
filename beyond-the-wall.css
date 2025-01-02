@@ -447,6 +447,7 @@ button:focus {
   /* background-size: cover; */
   border-radius: 0px;
   border-image-source: url(./assets/btw_background_chatwindow.webp);
+  border-image-source: url(./assets/art/DialogBackground.png);
   border-image-repeat: repeat;
   border-image-slice: 180 fill;
   border-image-width: 50px;
@@ -1389,6 +1390,14 @@ blockquote {
   background-position: center center, left center, right center, center center;
   background-clip: border-box, border-box, border-box, padding-box;
   color: whitesmoke;
+}
+
+.sheet.journal-entry .journal-entry-content table td, table th {
+  padding: 1em 1em;
+}
+
+.sheet.journal-entry .journal-entry-content table td:first-child {
+  padding-left: 2em;
 }
 
 /* ################################### */
