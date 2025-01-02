@@ -33,6 +33,7 @@
   --font-sans: "Primary Sans";
   --font-pause: "pause";
   --font-journal-h1: "journalhead";
+  --font-friz: "friz"
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -91,6 +92,16 @@
 @font-face {
   font-family: "journalhead";
   src: url("./fonts/dum1.ttf");
+}
+
+@font-face {
+  font-family: "friz";
+  src: url("./fonts/qt/QTFrizQuad.otf");
+}
+
+@font-face {
+  font-family: "friz bold";
+  src: url("./fonts/qt/QTFrizQuad-Bold.otf");
 }
 
 /* ## Header ############################### */
@@ -1281,6 +1292,10 @@ input[type="search"]:focus {
   font-size: 1.8em !important;
   border-bottom: 2px solid #008000 !important;
   color: #008000;
+}
+
+.sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  margin-top: 1.75rem;
 }
 
 /* Disable Line after h2
