@@ -1399,3 +1399,11 @@ li::marker {
   transform: scale(1.1) !important;
   color: var(--color-btw-celticborder);
 }
+
+option, optgroup {
+  color: black;
+}
+
+#client-settings {
+  font: "signika";
+}
