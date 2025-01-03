@@ -248,9 +248,11 @@ img.profile-img {
   font-size: 20px;
 }
 
+/*
 #context-menu {
   width: calc(100% + 150px);
 }
+  */
 
 .beyond-the-wall.character .main.active .side-bar .stats .ability-score {
   font-family: var(--font-sans);
