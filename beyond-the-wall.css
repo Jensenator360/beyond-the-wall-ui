@@ -238,10 +238,6 @@ img.profile-img {
   color: var(--color-btw-text-primary);
 }
 
-.app.window-app.beyond-the-wall.sheet.character {
-  height: fit-content !important;
-}
-
 .beyond-the-wall.character .item-list .item-name {
   font-family: var(--font-header);
   font-size: 20px;
