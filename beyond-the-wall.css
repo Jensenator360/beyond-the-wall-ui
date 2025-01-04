@@ -186,11 +186,12 @@ h3, h4, h5, h6 {
   --fa-animation-duration: 25s;
 }
 
-
+/*
 #logo {
   content: url(./assets/triskelion_logo.svg);
   height: 100px;
 }
+*/
 
 .tabs>[data-tab].active {
   color: var(--color-btw-celticborder);
