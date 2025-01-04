@@ -460,7 +460,7 @@ textarea:focus {
   border: none !important;
   border-radius: 0px;
   color: var(--color-btw-text-dark);
-  font-family: var(--font-primary);
+  font-family: var(--font-friz);
   line-height: 135%;
   font-size: 0.9em;
   padding: 23px !important;
