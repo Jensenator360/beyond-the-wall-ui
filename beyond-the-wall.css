@@ -1170,6 +1170,10 @@ form .notes, form .hint {
   font-size: 18px;
 }
 
+.btw.sheet.actor .class-abilities {
+  font-family: var(--font-friz) !important;
+}
+
 /* ## Journal #################### */
 
 /* TITLE */
