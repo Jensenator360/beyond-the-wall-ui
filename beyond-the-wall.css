@@ -950,7 +950,7 @@ h4.dice-total {
 
 .btw.sheet.actor {
   min-width: 750px;
-  font-family: var(--font-header) !important;
+  font-family: var(--font-primary) !important;
 }
 
 .btw.sheet.actor .portrait {
@@ -1266,6 +1266,7 @@ input[type="search"]:focus {
 
 .sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
   margin-top: 1.75rem;
+  color: #000;
 }
 
 /* Disable Line after h2
