@@ -953,8 +953,8 @@ h4.dice-total {
   font-family: var(--font-primary) !important;
 }
 
-.btw .sheet-body .editor {
-  font-size: 10px !important;
+form .notes, form .hint {
+  font-size: 1em !important;
 }
 
 .btw.sheet.actor .portrait {
