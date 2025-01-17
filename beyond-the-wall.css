@@ -117,12 +117,7 @@ h3, h4, h5, h6 {
   font-size: 1.25em;
   font-family: var(--font-header) !important;
   text-shadow: 0 2px 2px #000;
-  color: var(--color-btw-celticborder) !important;
-}
-
-#menu #menu-items li h4:hover {
-  text-shadow: none;
-  color: #ffff;
+  color: var(--color-btw-celticborder);
 }
 
 #menu #menu-items li>i {
