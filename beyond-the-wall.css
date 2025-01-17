@@ -117,11 +117,12 @@ h3, h4, h5, h6 {
   font-size: 1.25em;
   font-family: var(--font-header) !important;
   text-shadow: 0 2px 2px #000;
+  color: var(--color-btw-celticborder) !important;
 }
 
 #menu #menu-items li h4:hover {
   text-shadow: none;
-  color: var(--color-btw-parchment);
+  color: #ffff;
 }
 
 #menu #menu-items li>i {
@@ -390,6 +391,12 @@ img.profile-img {
 
 .package-configuration aside.sidebar nav.tabs {
   padding-right: 10px;
+}
+
+package-configuration aside.sidebar nav.tabs .category-tab.active {
+  border: 0px solid var(--color-underline-active) !important;
+  background: var(--color-underline-active) !important;
+  padding-left: 4px !important;
 }
 
 /* ## Directory #################### */
