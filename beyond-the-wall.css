@@ -172,6 +172,22 @@ h3, h4, h5, h6 {
 }
 */
 
+/* == Filepicker =====================*/
+
+.filepicker .window-content {
+  font-family: var(--font-mono);
+}
+
+.filepicker .directory > li.dir {
+  font-family: var(--font-mono);
+}
+
+.filepicker .thumbs-list li {
+  font-family: var(--font-mono);
+}
+
+/* ===================================*/
+
 .tabs>[data-tab].active {
   color: var(--color-btw-celticborder);
   text-shadow: none !important;
