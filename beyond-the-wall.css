@@ -349,6 +349,10 @@ img.profile-img {
   overflow-x: hidden;
 }
 
+.settings-sidebar h2 {
+  font-family: var(--font-header) !important;
+}
+
 #sidebar #settings button {
   margin: 6px 12px;
   padding: 5px;
@@ -369,15 +373,24 @@ img.profile-img {
   text-shadow: 0px 0px 1px #00000063;
 }
 
+#sidebar #settings button:hover,
+#sidebar #settings button:focus {
+  transform: scale(1.075);
+}
+  */
+
 #sidebar #settings button i {
   display: none;
 }
 
-button:hover,
-button:focus {
-  /* outline: 5px var(--color-btw-accent);*/
-  /* box-shadow: 0 0 5px var(--color-shadow-primary) !important; */
-  transform: scale(1.075);
+/* -- Sidebar all modules --------------------*/ 
+
+.package-configuration aside.sidebar {
+  font-family: signika;
+}
+
+.package-configuration aside.sidebar nav.tabs {
+  padding-right: 10px;
 }
 
 /* ## Directory #################### */
