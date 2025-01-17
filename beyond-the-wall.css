@@ -120,6 +120,11 @@ h3, h4, h5, h6 {
   color: var(--color-btw-celticborder);
 }
 
+#menu #menu-items li h4:hover {
+  text-shadow: none;
+  transform: scale(1.1);
+}
+
 #menu #menu-items li>i {
   display: none !important;
 }
