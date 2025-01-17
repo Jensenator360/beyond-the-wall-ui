@@ -103,7 +103,7 @@ h1 {
 h2 {
   color: inherit;
   font-size: var(--font-size-h2) !important;
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
   font-weight: 600;
 }
 
@@ -377,7 +377,6 @@ img.profile-img {
 #sidebar #settings button:focus {
   transform: scale(1.075);
 }
-  */
 
 #sidebar #settings button i {
   display: none;
