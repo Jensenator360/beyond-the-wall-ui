@@ -29,7 +29,7 @@
   /* Fonts */
   --font-primary: "Primary Font";
   --font-header: "Header";
-  --font-sans: "Sans"
+  --font-sans: "Sans";
   --font-mono: "Monospaced";
 
   /* Font size */
@@ -967,6 +967,7 @@ form .notes, form .hint {
 .btw.sheet.actor .saves .save-wrapper input {
   border-radius: 0px !important;
   font-size: 1.5em !important;
+  font-family: var(--font-header) !important;
 
   /* ########################### */
 }
