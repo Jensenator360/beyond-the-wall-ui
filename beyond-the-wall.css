@@ -409,7 +409,7 @@ img.profile-img {
   padding-right: 10px;
 }
 
-package-configuration aside.sidebar nav.tabs .category-tab.active {
+.package-configuration aside.sidebar nav.tabs .category-tab.active {
   border: 0px solid var(--color-underline-active) !important;
   background: var(--color-underline-active) !important;
   padding-left: 4px !important;
