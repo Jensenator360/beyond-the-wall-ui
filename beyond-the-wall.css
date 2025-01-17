@@ -28,12 +28,9 @@
 
   /* Fonts */
   --font-primary: "Primary Font";
-  --font-mono: "Monospaced";
   --font-header: "Header";
-  --font-sans: "Primary Sans";
-  --font-pause: "pause";
-  --font-journal-h1: "journalhead";
-  --font-friz: "friz";
+  --font-sans: "Sans"
+  --font-mono: "Monospaced";
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -72,36 +69,17 @@
   src: url("./fonts/qt/QTKorrin.otf");
 }
 
-/* -- SANS SERIF -------------------- */
+/* --- Sans ---------------------------*/
+
 @font-face {
-  font-family: "Primary Sans";
-  src: url("./fonts/qt/QTKorrin.otf");
+  font-family: "Sans";
+  src: url("./fonts/Philosopher/Philosopher-Regular.ttf");
 }
 
 /* --- MONOSPACED -------------------- */
 @font-face {
   font-family: "Monospaced";
   src: url("./fonts/Fira_Code/static/FiraCode-Regular.ttf");
-}
-
-@font-face {
-  font-family: "pause";
-  src: url("./fonts/qt/QTAntiquePost.otf");
-}
-
-@font-face {
-  font-family: "journalhead";
-  src: url("./fonts/dum1.ttf");
-}
-
-@font-face {
-  font-family: "friz";
-  src: url("./fonts/qt/QTFrizQuad.otf");
-}
-
-@font-face {
-  font-family: "friz bold";
-  src: url("./fonts/qt/QTFrizQuad-Bold.otf");
 }
 
 /* ## Header ############################### */
@@ -132,12 +110,12 @@ h2 {
 h3, h4, h5, h6 {
   color: inherit;
   border: none !important;
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
 }
 
 #menu #menu-items li h4 {
   font-size: 1.25em;
-  font-family: var(--font-pause) !important;
+  font-family: var(--font-header) !important;
   text-shadow: 0 2px 2px #000;
 }
 
@@ -158,7 +136,7 @@ h3, h4, h5, h6 {
   width: 341px;
   background: none;
   box-shadow: none;
-  font-family: var(--font-pause);
+  font-family: var(--font-header);
   font-weight: normal;
   font-size: 19px;
   color: #ececec;
@@ -173,7 +151,7 @@ h3, h4, h5, h6 {
 }
 
 #pause figcaption {
-  font-family: var(--font-pause);
+  font-family: var(--font-header);
   font-size: 3em;
 }
 
@@ -209,11 +187,11 @@ a:hover {
 
 label.checkbox {
   font-size: var(--font-size-11);
-  font-family: var(--font-sans);
+  font-family: var(--font-primary);
 }
 
 select {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
 }
 
 .window-app .window-header {
@@ -251,7 +229,7 @@ img.profile-img {
   */
 
 .beyond-the-wall.character .main.active .side-bar .stats .ability-score {
-  font-family: var(--font-sans);
+  font-family: var(--font-primary);
   font-size: 1.1em;
 }
 
@@ -456,7 +434,7 @@ textarea:focus {
   border: none !important;
   border-radius: 0px;
   color: var(--color-btw-text-dark);
-  font-family: var(--font-friz);
+  font-family: var(--font-primary);
   line-height: 135%;
   font-size: 0.9em;
   padding: 23px !important;
@@ -974,11 +952,11 @@ form .notes, form .hint {
 }
 
 .btw.sheet.actor .abilities .ability .ability-features {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
 }
 
 .btw.sheet.actor .saves .save.flexcol {
-  font-family: var(--font-header) !important;
+  font-family: var(--font-primary) !important;
 }
 
 /* ## Save ################### */
@@ -1176,7 +1154,7 @@ form .notes, form .hint {
 }
 
 .btw.sheet.actor .class-abilities {
-  font-family: var(--font-friz) !important;
+  font-family: var(--font-primary) !important;
 }
 
 /* ## Journal #################### */
@@ -1191,7 +1169,7 @@ form .notes, form .hint {
   height: 50px;
   line-height: 50px;
   border-radius: 3px !important;
-  font-family: var(--font-journal-h1);
+  font-family: var(--font-header);
   font-weight: bolder;
   letter-spacing: 4px;
   border: none !important;
@@ -1249,7 +1227,7 @@ input[type="search"]:focus {
 }
 
 .sheet.journal-entry p {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
 }
 
 .sheet.journal-entry .journal-entry-page h1 {
@@ -1259,7 +1237,7 @@ input[type="search"]:focus {
   text-align: center;
   color: var(--color-btw-content);
   border-bottom: 0px solid transparent;
-  font-family: var(--font-journal-h1) !important;
+  font-family: var(--font-header) !important;
   font-size: 4vmin;
 }
 
@@ -1312,18 +1290,18 @@ input[type="search"]:focus {
 
 .sheet.journal-entry .journal-entry-page h3 {
   font-size: 1.5em !important;
-  font-family: var(--font-friz) !important;
+  font-family: var(--font-primary) !important;
   font-weight: 600 !important;
 }
 
 .sheet.journal-entry .journal-entry-page h4 {
-  font-family: var(--font-friz) !important;
+  font-family: var(--font-primary) !important;
   font-size: 1em !important;
   font-weight: bolder;
 }
 
 .sheet.journal-entry .journal-entry-page li {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-primary) !important;
   content: "- ";
 }
 
