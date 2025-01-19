@@ -31,6 +31,7 @@
   --font-header: "Header";
   --font-sans: "Sans";
   --font-mono: "Monospaced";
+  --font-fields: "Staircase"
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -80,6 +81,12 @@
 @font-face {
   font-family: "Monospaced";
   src: url("./fonts/Fira_Code/static/FiraCode-Regular.ttf");
+}
+
+/* --- FIELDS -------------------- */
+@font-face {
+  font-family: "Staircase";
+  src: url("./fonts/LT_Staircase/LTStaircase.otf");
 }
 
 /* ## Header ############################### */
@@ -961,6 +968,7 @@ h4.dice-total {
 
 /* ## Charsheet ################### */
 
+
 .btw.sheet.actor {
   min-width: 760px !important;
   min-height: 750px o !important;
@@ -979,16 +987,41 @@ form .notes, form .hint {
   height: fit-content;
 }
 
+/* -- Class Fields --------------------*/
+.btw .sheet-header .header-fields input[type=number] {
+  font-family: var(--font-fields);
+}
+
+.btw h3 {
+  font-family: staircase !important;
+}
+
 .btw.sheet.actor .abilities .ability .abitily-name,
 .btw.sheet.actor .abilities .ability .ability-score,
 .btw.sheet.actor .abilities .ability .ability-mod {
-  font-family: var(--font-header) !important;
+  font-family: var(--font-fields) !important;
   font-size: 20px !important;
 }
 
 .btw.sheet.actor .abilities .ability .ability-features {
   font-family: var(--font-primary) !important;
 }
+
+/* ## Armor Class + HP #################### */
+
+.btw.sheet.actor .right-fields label {
+  font-family: var(--font-primary);
+}
+
+/* -- HP and Fortune Points -------------------*/
+.btw .sheet-body input[type=number] {
+  font-family: var(--font-fields);
+}
+
+.btw.sheet.actor .right-fields .armor input {
+  font-family: var(--font-fields) !important;
+}
+
 
 .btw.sheet.actor .saves .save.flexcol {
   font-family: var(--font-primary) !important;
@@ -1002,7 +1035,7 @@ form .notes, form .hint {
 .btw.sheet.actor .saves .save-wrapper input {
   border-radius: 0px !important;
   font-size: 1.5em !important;
-  font-family: var(--font-header) !important;
+  font-family: var(--font-fields) !important;
 
   /* ########################### */
 }
@@ -1013,6 +1046,7 @@ form .notes, form .hint {
 
 .btw .sheet-header .header-fields input[name="name"] {
   border-radius: 0px !important;
+  font-family: var(--font-fields);
 }
 
 .btw.sheet .window-content {
