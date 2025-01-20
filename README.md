@@ -1,1 +1,1 @@
-A UI for my upcoming Beyond the Wall Campaignon FoundryVTT
+A UI for my upcoming Beyond the Wall Campaign FoundryVTT
