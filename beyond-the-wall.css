@@ -118,6 +118,7 @@ h3, h4, h5, h6 {
   color: inherit;
   border: none !important;
   font-family: var(--font-primary) !important;
+  font-weight: 600;
 }
 
 #menu #menu-items li h4 {
@@ -971,7 +972,7 @@ h4.dice-total {
 
 .btw.sheet.actor {
   min-width: 760px !important;
-  min-height: 750px o !important;
+  min-height: 760px !important;
   font-family: var(--font-primary) !important;
 }
 
@@ -990,10 +991,6 @@ form .notes, form .hint {
 /* -- Class Fields --------------------*/
 .btw .sheet-header .header-fields input[type=number] {
   font-family: var(--font-fields);
-}
-
-.btw h3 {
-  font-family: staircase !important;
 }
 
 .btw.sheet.actor .abilities .ability .abitily-name,
