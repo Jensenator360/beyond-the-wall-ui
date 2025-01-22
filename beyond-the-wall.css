@@ -356,6 +356,7 @@ img.profile-img {
 
 .settings-sidebar h2 {
   font-family: var(--font-header) !important;
+  font-weight: 100;
 }
 
 #sidebar #settings button {
@@ -365,8 +366,8 @@ img.profile-img {
   width: -moz-available;
   width: fill-available;
   border: 1px solid black;
-  border-image: url(./assets/webp/celtic_frame.webp) 17 repeat;
-  border-image-width: 16px;
+  border-image: url(./assets/webp/btw_celtic_frame.webp) 17 repeat;
+  border-image-width: 17px;
   border-image-outset: 0px;
   box-shadow: 4px 4px 1px #00000085;
   background: url(./assets/webp/btw_border_window_bg.webp) repeat;
@@ -956,10 +957,7 @@ form .notes, form .hint {
 
 .btw.sheet.actor .portrait {
   overflow: hidden;
-}
-
-.btw .sheet-header .portrait .profile-img {
-  height: fit-content;
+  width: fit-content;
 }
 
 /* -- Class Fields --------------------*/
