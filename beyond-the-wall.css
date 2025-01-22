@@ -54,39 +54,26 @@
 /* -- HEADER -------------------- */
 @font-face {
   font-family: "Header";
-  src: url("./fonts/qt/QTAntiquePost.otf");
+  src: url("./fonts/QTAntiquePost.woff2");
 }
 
-/* --  SERIF  -------------------- */
+/* --  PRIMARY  -------------------- */
 @font-face {
   font-family: "Primary Font";
   font-weight: normal;
-  src: url("./fonts/qt/QTKorrin.otf");
-}
-
-@font-face {
-  font-family: "Primary Font Bold";
-  font-weight: bold;
-  src: url("./fonts/qt/QTKorrin.otf");
-}
-
-/* --- Sans ---------------------------*/
-
-@font-face {
-  font-family: "Sans";
-  src: url("./fonts/Philosopher/Philosopher-Regular.ttf");
+  src: url("./fonts/QTKorrin.woff2");
 }
 
 /* --- MONOSPACED -------------------- */
 @font-face {
   font-family: "Monospaced";
-  src: url("./fonts/Fira_Code/static/FiraCode-Regular.ttf");
+  src: url("./fonts/FiraCode-Regular.woff2");
 }
 
 /* --- FIELDS -------------------- */
 @font-face {
   font-family: "Staircase";
-  src: url("./fonts/LT_Staircase/LTStaircase.otf");
+  src: url("./fonts/LTStaircase.woff2");
 }
 
 /* ## Header ############################### */
