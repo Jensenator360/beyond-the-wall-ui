@@ -32,6 +32,7 @@
   --font-sans: "Sans";
   --font-mono: "Monospaced";
   --font-fields: "Staircase";
+  --font-sans: "Signika";
 
   /* Font size */
   --font-size-h1: 2.5em;
@@ -62,6 +63,12 @@
   font-family: "Primary Font";
   font-weight: normal;
   src: url("./fonts/QTKorrin.woff2");
+}
+
+/* -- SANS -------------------- */
+@font-face {
+  font-family: "Signika" ;
+  src: url(./fonts/Signika-Regular.woff2);
 }
 
 /* --- MONOSPACED -------------------- */
@@ -239,7 +246,7 @@ img.profile-img {
 }
 
 .beyond-the-wall .skill-box .skill .skill-name {
-  font-family: "Signika";
+  font-family: var(--font-sans);
 }
 
 /* ## Menue #################### */
@@ -391,7 +398,7 @@ img.profile-img {
 /* -- Sidebar all modules --------------------*/ 
 
 .package-configuration aside.sidebar {
-  font-family: signika;
+  font-family: var(--font-sans);
 }
 
 .package-configuration aside.sidebar nav.tabs {
@@ -414,6 +421,11 @@ img.profile-img {
   padding: 0 0 15px;
 }
 
+.directory .directory-item .document-name {
+  margin: 0 0 0 8px;
+  font-weight: 100;
+}
+
 .directory .directory-item.document {
   background: var(--color-btw-border);
   border-bottom: 4px solid black;
@@ -423,6 +435,11 @@ img.profile-img {
   width: 99%;
   width: -webkit-fill-available;
 }
+
+li.folder > .folder-header h3 {
+  font-weight: 100;
+}
+
 
 /* ## Chat #################### */
 
@@ -502,6 +519,10 @@ textarea:focus {
   color: var(--color-text-dark-secondary);
   border-bottom: 1.5px solid var(--color-btw-border);
   margin-bottom: 5px;
+}
+
+.chat-message .message-header .flavor-text, .chat-message .message-header .whisper-to {
+font-family: var(--font-sans);
 }
 
 .chat-message {
@@ -955,14 +976,12 @@ form .notes, form .hint {
   font-size: 1em !important;
 }
 
-.sheet header.sheet-header img {
-  flex: 0 0 64px;
-  height: 64px;
-  height: fit-content !important;
-}
-
 .btw.sheet.actor .portrait {
   overflow: hidden;
+}
+
+.btw.sheet.actor .portrait .profile-img {
+  height: fit-content !important;
 }
 
 /* -- Class Fields --------------------*/
@@ -1395,7 +1414,7 @@ option, optgroup {
 }
 
 #client-settings {
-  font: "signika";
+  font: var(--font-sans);
 }
 
 /* #### Pin Cushion ##################### */
