@@ -955,9 +955,14 @@ form .notes, form .hint {
   font-size: 1em !important;
 }
 
+.sheet header.sheet-header img {
+  flex: 0 0 64px;
+  height: 64px;
+  height: fit-content !important;
+}
+
 .btw.sheet.actor .portrait {
   overflow: hidden;
-  width: fit-content;
 }
 
 /* -- Class Fields --------------------*/
