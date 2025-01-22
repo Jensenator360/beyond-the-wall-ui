@@ -152,7 +152,7 @@ h3, h4, h5, h6 {
 }
 
 #pause img {
-  content: url(./assets/webp/pause.webp);
+  content: url(./assets/webp/btw_pause.webp);
   top: -50px;
   left: calc(50% - 100px);
   height: 200px;
