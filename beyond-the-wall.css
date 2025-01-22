@@ -276,9 +276,9 @@ img.profile-img {
   margin: 0px;
   height: 100%;
   background: url(./assets/webp/btw_wood_dark_bg.webp);
-  border-image-source: url(./assets/svg/btw_btw_celtic_frame.svg);
+  border-image-source: url(./assets/svg/btw_celtic_frame.svg);
   border-image-repeat: repeat;
-  border-image-slice: 96;
+  border-image-slice: 140;
   border-image-width: 30px;
 }
 
