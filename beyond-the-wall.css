@@ -603,15 +603,15 @@ h4.dice-total {
 
 #players {
   border: 1px solid blue;
-  border-image: url(./assets/svg/btw_celtic_frame.svg) 27 repeat;
-  border-image-slice: 27;
+  border-image: url(./assets/webp/btw_celtic_frame.webp) 16 repeat;
+  border-image-slice: 13;
   border-image-width: 13px;
   border-image-outset: 0;
   border-radius: 0px;
   box-shadow: 3px 4px 11px #000;
   background: url(./assets/webp/btw_wood_dark_bg.webp);
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 100;
+  font-size: 12px;
   padding: 9px;
 }
 
