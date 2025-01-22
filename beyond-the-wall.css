@@ -62,7 +62,7 @@
 @font-face {
   font-family: "Primary Font";
   font-weight: normal;
-  src: url("./fonts/QTKorrin.woff2");
+  src: url("./fonts/quadraat-regular.woff2");
 }
 
 /* -- SANS -------------------- */
@@ -146,7 +146,7 @@ h3, h4, h5, h6 {
   border: 1px solid blue;
   border-image: url(./assets/webp/btw_celtic_knot.webp) 13 repeat;
   border-image-slice: 13;
-  border-image-width: 13px;
+  border-image-width: 16px;
   border-image-outset: 0;
   border-radius: 0px;
   box-shadow: 3px 4px 11px #000;
@@ -285,7 +285,7 @@ img.profile-img {
   background: url(./assets/webp/btw_wood_dark_bg.webp);
   border-image-source: url(./assets/svg/btw_celtic_frame.svg);
   border-image-repeat: repeat;
-  border-image-slice: 140;
+  border-image-slice: 185;
   border-image-width: 30px;
 }
 
