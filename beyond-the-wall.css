@@ -84,7 +84,7 @@ body {
   margin: 0;
   padding: 0px;
   overflow: hidden;
-  background: url(./assets/webp/webp/btw_wood_bg.webp) repeat;
+  background: url(./assets/webp/btw_wood_bg.webp) repeat;
 }
 
 /* Font Header */
@@ -137,13 +137,13 @@ h3, h4, h5, h6 {
   font-size: 19px;
   color: #ececec;
   border: 1px solid blue;
-  border-image: url(./assets/webp/webp/knot.webp) 13 repeat;
+  border-image: url(./assets/webp/knot.webp) 13 repeat;
   border-image-slice: 13;
   border-image-width: 13px;
   border-image-outset: 0;
   border-radius: 0px;
   box-shadow: 3px 4px 11px #000;
-  background: url(./assets/webp/webp/btw_wood_dark_bg.webp);
+  background: url(./assets/webp/btw_wood_dark_bg.webp);
 }
 
 #pause figcaption {
@@ -276,7 +276,7 @@ img.profile-img {
   margin: 0px;
   height: 100%;
   background: url(./assets/webp/btw_wood_dark_bg.webp);
-  border-image-source: url(./assets/svg/btw_btw_celtic-frame.svg);
+  border-image-source: url(./assets/svg/btw_btw_celtic_frame.svg);
   border-image-repeat: repeat;
   border-image-slice: 96;
   border-image-width: 30px;
@@ -286,7 +286,7 @@ img.profile-img {
   height: auto;
   width: 72px !important;
   padding-left: 0;
-  border-image-source: url(./assets/svg/btw_btw_celtic-frame.svg);
+  border-image-source: url(./assets/svg/btw_btw_celtic_frame.svg);
   border-image-repeat: repeat;
   border-image-slice: 26;
   border-image-width: 18px;
@@ -365,7 +365,7 @@ img.profile-img {
   width: -moz-available;
   width: fill-available;
   border: 1px solid black;
-  border-image: url(./assets/webp/celtic-frame.webp) 17 repeat;
+  border-image: url(./assets/webp/celtic_frame.webp) 17 repeat;
   border-image-width: 16px;
   border-image-outset: 0px;
   box-shadow: 4px 4px 1px #00000085;
@@ -433,9 +433,7 @@ img.profile-img {
   width: 100%;
   height: 100%;
   resize: none;
-  /* background: url(./assets/webp/background.webp) repeat; */
   background: transparent;
-  /* background-size: cover; */
   border-radius: 0px;
   border-image-source: url(./assets/webp/btw_background_chatwindow.webp);
   border-image-source: url(./assets/webp/btw_dialogbackground.webp);
@@ -583,7 +581,7 @@ h4.dice-total {
 
 #players {
   border: 1px solid blue;
-  border-image: url(./assets/svg/btw_btw_celtic-frame.svg) 13 repeat;
+  border-image: url(./assets/svg/btw_btw_celtic_frame.svg) 13 repeat;
   border-image-slice: 13;
   border-image-width: 13px;
   border-image-outset: 0;
