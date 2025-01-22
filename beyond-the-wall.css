@@ -84,8 +84,7 @@ body {
   margin: 0;
   padding: 0px;
   overflow: hidden;
-  background: url(./assets/btw_wood_bg.webp) repeat;
-  /* font-size: var(--font-size-14); */
+  background: url(./assets/webp/webp/btw_wood_bg.webp) repeat;
 }
 
 /* Font Header */
@@ -138,13 +137,13 @@ h3, h4, h5, h6 {
   font-size: 19px;
   color: #ececec;
   border: 1px solid blue;
-  border-image: url(./assets/knot.webp) 13 repeat;
+  border-image: url(./assets/webp/webp/knot.webp) 13 repeat;
   border-image-slice: 13;
   border-image-width: 13px;
   border-image-outset: 0;
   border-radius: 0px;
   box-shadow: 3px 4px 11px #000;
-  background: url(./assets/btw_wood_dark_bg.webp);
+  background: url(./assets/webp/webp/btw_wood_dark_bg.webp);
 }
 
 #pause figcaption {
@@ -153,20 +152,13 @@ h3, h4, h5, h6 {
 }
 
 #pause img {
-  content: url(./assets/pause.webp);
+  content: url(./assets/webp/pause.webp);
   top: -50px;
   left: calc(50% - 100px);
   height: 200px;
   width: 200px;
   --fa-animation-duration: 25s;
 }
-
-/*
-#logo {
-  content: url(./assets/triskelion_logo.svg);
-  height: 100px;
-}
-*/
 
 /* == Filepicker =====================*/
 
@@ -208,7 +200,7 @@ select {
 }
 
 .window-app .window-header {
-  background: url(./assets/btw_border_window_bg.webp);
+  background: url(./assets/webp/btw_border_window_bg.webp);
 }
 
 img.profile-img {
@@ -226,7 +218,7 @@ img.profile-img {
 .sheet nav.sheet-tabs {
   font-family: var(--font-header);
   font-size: 20px;
-  background: url(./assets/btw_border_window_bg.webp);
+  background: url(./assets/webp/btw_border_window_bg.webp);
   color: var(--color-btw-text-primary);
 }
 
@@ -283,8 +275,8 @@ img.profile-img {
   width: 400px !important;
   margin: 0px;
   height: 100%;
-  background: url(./assets/btw_wood_dark_bg.webp);
-  border-image-source: url(./assets/knot.svg);
+  background: url(./assets/webp/btw_wood_dark_bg.webp);
+  border-image-source: url(./assets/svg/btw_btw_celtic-frame.svg);
   border-image-repeat: repeat;
   border-image-slice: 96;
   border-image-width: 30px;
@@ -294,7 +286,7 @@ img.profile-img {
   height: auto;
   width: 72px !important;
   padding-left: 0;
-  border-image-source: url(./assets/celtic-frame.svg);
+  border-image-source: url(./assets/svg/btw_btw_celtic-frame.svg);
   border-image-repeat: repeat;
   border-image-slice: 26;
   border-image-width: 18px;
@@ -353,7 +345,7 @@ img.profile-img {
 /* -- Sidebar popout ------------------- */
 .app.sidebar-popout .window-content {
   /* background: var(--color-btw-background-notrans);*/
-  background-image: url(./assets/btw_wood_dark_bg.webp);
+  background-image: url(./assets/webp/btw_wood_dark_bg.webp);
   background-size: contain;
 }
 
@@ -373,11 +365,11 @@ img.profile-img {
   width: -moz-available;
   width: fill-available;
   border: 1px solid black;
-  border-image: url(./assets/celtic-frame.webp) 17 repeat;
+  border-image: url(./assets/webp/celtic-frame.webp) 17 repeat;
   border-image-width: 16px;
   border-image-outset: 0px;
   box-shadow: 4px 4px 1px #00000085;
-  background: url(./assets/btw_border_window_bg.webp) repeat;
+  background: url(./assets/webp/btw_border_window_bg.webp) repeat;
   background-origin: padding-box;
   font-family: var(--font-header);
   font-size: 1.5em;
@@ -441,12 +433,12 @@ img.profile-img {
   width: 100%;
   height: 100%;
   resize: none;
-  /* background: url(./assets/background.webp) repeat; */
+  /* background: url(./assets/webp/background.webp) repeat; */
   background: transparent;
   /* background-size: cover; */
   border-radius: 0px;
-  border-image-source: url(./assets/btw_background_chatwindow.webp);
-  border-image-source: url(./assets/art/DialogBackground.png);
+  border-image-source: url(./assets/webp/btw_background_chatwindow.webp);
+  border-image-source: url(./assets/webp/btw_dialogbackground.webp);
   border-image-repeat: repeat;
   border-image-slice: 180 fill;
   border-image-width: 50px;
@@ -460,7 +452,7 @@ textarea:focus {
 }
 
 .vtt #chat-log .message {
-  background-image: url(./assets/btw_parchment_chat_bg.webp) !important;
+  background-image: url(./assets/webp/btw_parchment_chat_bg.webp) !important;
   /* background: var(--color-btw-parchment); */
   border: none !important;
   border-radius: 0px;
@@ -471,7 +463,7 @@ textarea:focus {
   padding: 23px !important;
   margin: 5px 0px 10px 0px !important;
   border: 2px solid !important;
-  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
+  border-image-source: url(./assets/webp/btw_gold_border_window.webp) !important;
   border-image-repeat: repeat !important;
   border-image-slice: 24 !important;
   border-image-width: 15px !important;
@@ -591,13 +583,13 @@ h4.dice-total {
 
 #players {
   border: 1px solid blue;
-  border-image: url(./assets/knot.webp) 13 repeat;
+  border-image: url(./assets/svg/btw_btw_celtic-frame.svg) 13 repeat;
   border-image-slice: 13;
   border-image-width: 13px;
   border-image-outset: 0;
   border-radius: 0px;
   box-shadow: 3px 4px 11px #000;
-  background: url(./assets/btw_wood_dark_bg.webp);
+  background: url(./assets/webp/btw_wood_dark_bg.webp);
   font-weight: 500;
   font-size: 14px;
   padding: 9px;
@@ -612,11 +604,11 @@ h4.dice-total {
 }
 
 .window-app .window-content {
-  background: url(./assets/parchment.webp) repeat;
+  background: url(./assets/webp/btw_parchment_light.webp) repeat;
 }
 
 .dice-tray button {
-  background: url(./assets/btw_border_window_bg.webp) !important;
+  background: url(./assets/webp/btw_border_window_bg.webp) !important;
   box-shadow: none !important;
 }
 
@@ -632,16 +624,14 @@ h4.dice-total {
   padding: 5px;
   overflow-y: hidden;
   border: 2px solid;
-  border-image: url(./assets/btw_gold_border_window.webp);
+  border-image: url(./assets/webp/btw_gold_border_window.webp);
   border-image-width: 20px;
   border-image-outset: 0;
   border-image-repeat: repeat;
   border-image-slice: 25;
   padding: 15px 15px 0px 15px;
-  /*background: url(./assets/btw_parchment_bg.webp);*/
   background-position-x: center;
   background-position-y: -16px;
-  /* background: var(--debug-background-color-green); */
   display: inline-block;
   box-shadow: 0px 0px 8px #00000061 inset;
 }
@@ -649,7 +639,6 @@ h4.dice-total {
 .beyond-the-wall .sheet-header {
   display: grid;
   padding: 3px;
-  /**background-color: #83831f;**/
   column-gap: 3px;
   justify-items: center;
   align-items: center;
@@ -695,7 +684,6 @@ h4.dice-total {
   text-align: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
-  /**background: #83831f;**/
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -1036,8 +1024,8 @@ form .notes, form .hint {
 
 .btw.sheet .window-content {
   overflow-y: hidden;
-  background: url(./assets/parchment.webp) repeat;
-  border-image-source: url(./assets/btw_gold_border_window.webp) !important;
+  background: url(./assets/webp/btw_parchment_chat_bg.webp) repeat;
+  border-image-source: url(./assets/webp/btw_gold_border_window.webp) !important;
   border-image-repeat: repeat !important;
   border-image-slice: 24 !important;
   border-image-width: 15px !important;
@@ -1246,7 +1234,7 @@ input[type="search"]:focus {
 }
 
 .sheet.journal-entry .journal-entry-content .journal-header {
-  background: url(./assets/news_border_top.png);
+  background: url(./assets/webp/btw_journal_header_top.webp);
   background-position: center calc(100% + 50px);
   background-repeat: no-repeat;
   background-size: auto 50px;
@@ -1262,7 +1250,7 @@ input[type="search"]:focus {
 }
 
 .sheet.journal-entry .journal-entry-content .journal-entry-pages .journal-entry-page:not(.image):last-child {
-  background: url(./assets/news_border_bot.png);
+  background: url(./assets/webp/btw_journal_header_bottom.webp);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: auto 40px;
@@ -1273,12 +1261,12 @@ input[type="search"]:focus {
 }
 
 .sheet.journal-entry .journal-entry-content {
-  background: url(./assets/parchment.webp) !important;
+  background: url(./assets/webp/btw_parchment_light.webp) !important;
   padding: 0 25px 0 25px;
 }
 
 .sheet.journal-entry .journal-sidebar {
-  background: url(./assets/btw_wood_dark_bg.webp) !important;
+  background: url(./assets/webp/btw_wood_dark_bg.webp) !important;
 }
 
 .sheet.journal-entry p {
@@ -1306,39 +1294,6 @@ input[type="search"]:focus {
   color: #000;
 }
 
-/* Disable Line after h2
-.sheet.journal-entry .journal-entry-page h2:after {
-  content: "";
-  display: block;
-  width: auto;
-  height: 3px;
-  background-image: url(./assets/sidebar_divider.webp);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: inherit;
-}
-*/
-
-/* sheet editor*/
-
-/*
-.sheet.journal-entry-page .journal-header {
-  margin-bottom: -90px;
-  display: flex
-;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background: none;
-}
-*/
-
-/* # SHEET ALL HEADINGS
-.sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
-  margin-top: 1rem;
-  font-family: var(--font-aniron) !important;
-}
-*/
-
 .sheet.journal-entry .journal-entry-content .journal-entry-pages .journal-entry-page:first-child {
   margin-top: 40px;
 }
@@ -1365,7 +1320,7 @@ blockquote {
   font-style: normal;
   margin-block: 20px;
   margin-inline: 0px;
-  background: url(./assets/art/VellumRitual_@2x.png);
+  background: url(./assets/webp/btw_journal_infobox_bg.webp);
   background-size: cover;
   padding: 30px;
   background-size: 100% 100%;
@@ -1406,7 +1361,6 @@ blockquote {
   height: 32px;
   left: calc(50% - 170px);
   padding: 6px 24px 12px 24px;
-  /* background-image: url(art/ui/text-box-title-wide-bg.webp), url(art/ui/arrow-left.webp), url(art/ui/arrow-right.webp), url(art/ui/separator-middle.webp); */
   background-size: contain, auto 24px, auto 24px, calc(100% - 24px) 16px;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: center center, left center, right center, center center;
@@ -1422,22 +1376,13 @@ blockquote {
   padding-left: 2em;
 }
 
-/* ################################### */
-
-/*
-li::marker {
-  content: '>> ';
-  font-size: 1.2em;
-}
-*/
-
 /* ## Foriens Quest log ############## */
 
 #forien-quest-log .quest-log .log-body header h1 {
   font-size: 2em !important;
 }
 
-/* TEST */
+/*#### Sheet TEST ##################### */
 
 .sheet-tabs.tabs a.item:hover {
   transform: scale(1.1) !important;
