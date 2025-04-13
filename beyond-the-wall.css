@@ -968,7 +968,7 @@ h4.dice-total {
 
 .btw.sheet.actor {
   min-width: 760px !important;
-  min-height: 760px !important;
+  /*min-height: 760px !important;*/
   font-family: var(--font-primary) !important;
 }
 
